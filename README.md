@@ -2,7 +2,7 @@
 
 ## Overview
 
-ERP Workflow Dashboard is a portfolio-quality React + TypeScript application that simulates the frontend of an ERP-style purchase request workflow. It is designed as a realistic internal business tool for employees, approvers, and operations users who need to create requests, review approval queues, inspect request history, and complete workflow actions.
+ERP Workflow Dashboard is a React + TypeScript application that simulates the frontend of an ERP-style purchase request workflow. It is designed as a realistic internal business tool for employees, approvers, and operations users who need to create requests, review approval queues, inspect request history, and complete workflow actions.
 
 The project is intentionally structured to complement a backend project such as **Business Process Approval & Posting Simulator**. It uses a mock API today, but the data-access boundary is designed so the mock implementation can later be replaced with a real ASP.NET Core Web API with minimal refactoring.
 
@@ -173,16 +173,3 @@ npm run build
 - support persisted filters and richer operational reporting
 - introduce export or print-oriented request views
 
-## CV Project Description
-
-Built a portfolio-quality React + TypeScript ERP workflow dashboard that simulates a realistic purchase request lifecycle for internal business users. Implemented route-based request details, dynamic forms, audit-trail views, and workflow actions such as submit, approve, reject, and post. Structured the frontend with reusable UI components, TanStack Query, and a replaceable API boundary to reflect maintainable full-stack engineering practices.
-
-## LinkedIn-Ready Summary
-
-Created a modern React + TypeScript frontend called **ERP Workflow Dashboard** to simulate an enterprise purchase request workflow. The application includes dashboards, searchable request lists, route-driven details pages, dynamic request creation, audit history, and realistic workflow actions using a mock API structure that can later connect to a .NET backend.
-
-## Interview Talking Points
-
-- It shows how to design a frontend around a real ERP workflow with state transitions, auditability, and role-sensitive actions.
-- It demonstrates maintainable frontend architecture by separating screens, feature logic, and the data-access boundary that can later target a real API.
-- It reflects enterprise UI thinking through operational dashboards, clickable request worklists, confirmation flows, and business-friendly validation feedback.
